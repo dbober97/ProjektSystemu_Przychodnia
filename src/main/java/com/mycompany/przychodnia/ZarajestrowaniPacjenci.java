@@ -57,7 +57,7 @@ public class ZarajestrowaniPacjenci implements Serializable {
     private String nazwisko;
     @Basic(optional = false)
     @NotNull
-    @Size(min = 1, max = 11)
+    @Size(min = 11, max = 11)
     @Column(name = "PESEL")
     private String pesel;
     @Basic(optional = false)
