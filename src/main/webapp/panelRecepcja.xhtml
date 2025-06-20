@@ -12,7 +12,25 @@
             
             <p:messages/>
             <h3>Panel recepcja</h3>
-            <p:commandButton value="Wyloguj się" ajax="false"  validateClient="true" styleClass="mr-3" /> imię nazwisko
+<h:panelGroup layout="block" style="display: flex; justify-content: space-between; align-items: center; padding: 0.5rem;">
+    
+    <!-- Lewa część: przycisk wyloguj + imię i nazwisko -->
+    <h:panelGroup layout="block" style="display: flex; align-items: center;">
+        <p:commandButton value="Wyloguj"
+                         immediate="true"
+                         action="#{loginBean.logout}"
+                         icon="pi pi-sign-out"
+                         styleClass="ui-button-danger ui-button-sm"
+                         style="margin-right: 1rem;" />
+
+        <h:outputText value="#{loginBean.zalogowanyUzytkownik.imie} #{loginBean.zalogowanyUzytkownik.nazwisko}"
+                      style="font-weight: bold; font-size: 1rem;" />
+    </h:panelGroup>
+
+</h:panelGroup>
+
+
+
             
             <div class="card">
                 <h:form id="form">
