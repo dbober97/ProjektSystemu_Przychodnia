@@ -1,27 +1,29 @@
-package com.mycompany.przychodnia;
+
+import com.mycompany.przychodnia.Role;
+import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.faces.component.UIComponent;
 import jakarta.faces.context.FacesContext;
 import jakarta.faces.convert.Converter;
 import jakarta.faces.convert.FacesConverter;
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.PersistenceContext;
 
+import jakarta.inject.Inject;
 import java.math.BigDecimal;
 
 @FacesConverter(value = "roleConverter", managed = true)
+@ApplicationScoped
 public class RoleConverter implements Converter<Role> {
 
-    @PersistenceContext
-    private EntityManager em;
+    @Inject
+    private RoleService roleService;
 
     @Override
     public Role getAsObject(FacesContext context, UIComponent component, String value) {
-        if (value == null || value.isEmpty()) {
+        if (value == null || value.trim().isEmpty()) {
             return null;
         }
         try {
             BigDecimal id = new BigDecimal(value);
-            return em.find(Role.class, id);
+            return roleService.findById(id);
         } catch (NumberFormatException e) {
             return null;
         }
@@ -29,10 +31,9 @@ public class RoleConverter implements Converter<Role> {
 
     @Override
     public String getAsString(FacesContext context, UIComponent component, Role role) {
-        if (role == null) {
+        if (role == null || role.getId() == null) {
             return "";
         }
-        BigDecimal id = role.getId();
-        return (id != null) ? id.toString() : "";
+        return role.getId().toString();
     }
 }
