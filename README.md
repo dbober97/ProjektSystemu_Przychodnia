@@ -400,6 +400,17 @@ Kod SQL:
       END;
       /
 
+8'. Wymagane rekordy w bazie:
+
+      insert into specjalizacje values (1, 'Kardiolog')
+      insert into specjalizacje values (2, 'Neurolog')
+      insert into specjalizacje values (3, 'brak')
+      
+      insert into role values (1, 'Lekarz')
+      insert into role values (2, 'Recepcjonista')
+      insert into role values (3, 'Administrator')
+
+      insert into użytkownicy values(1, 'Dorota', 'Bober', 'admin', 'pass', 'db@gmail.com', '999888777', 1, 3);
 
 9. Diagram klas (wspólnie)
 
