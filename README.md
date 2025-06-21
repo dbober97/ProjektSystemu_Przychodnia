@@ -2,8 +2,7 @@
 
 Autorzy:
 Dorota Bober,
-Anna Nielepiec,
-Mateusz Ziarkiewicz
+Anna Nielepiec
 
 Informatyka, niestacjonarne, 3 rok, grupa 2
 

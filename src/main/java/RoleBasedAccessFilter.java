@@ -49,7 +49,7 @@ public class RoleBasedAccessFilter implements Filter {
         System.out.println("[FILTER] Rola użytkownika: " + rola);
 
         // Sprawdzenie ról i URI
-        if (uri.contains("/admin/") && !"ADMIN".equalsIgnoreCase(rola)) {
+        if (uri.contains("/admin/") && !"ADMINISTRATOR".equalsIgnoreCase(rola)) {
             System.out.println("[FILTER] Brak dostępu do /admin/ dla roli: " + rola);
             res.sendRedirect(req.getContextPath() + "/index.xhtml");
             return;

@@ -3,7 +3,6 @@ import jakarta.enterprise.context.SessionScoped;
 import jakarta.inject.Named;
 import jakarta.faces.application.FacesMessage;
 import jakarta.faces.context.FacesContext;
-import jakarta.inject.Inject;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.NoResultException;
 import jakarta.persistence.PersistenceContext;
@@ -25,9 +24,10 @@ public class LoginBean implements Serializable {
 public String login() {
     try {
         user = em.createQuery(
-            "SELECT u FROM Uzytkownicy u WHERE u.login = :login AND u.haslo = :haslo",
+            "SELECT u FROM Uzytkownicy u WHERE LOWER(u.login) = :login AND u.haslo = :haslo"
+,
             Uzytkownicy.class
-        ).setParameter("login", login)
+        ).setParameter("login", login.toLowerCase())
          .setParameter("haslo", haslo)
          .getSingleResult();
 
@@ -39,7 +39,7 @@ public String login() {
         // Przekierowanie na podstawie roli
         String role = user.getRoleId().getNazwa();
 
-        if ("ADMIN".equalsIgnoreCase(role)) {
+        if ("ADMINISTRATOR".equalsIgnoreCase(role)) {
             return "/admin/panelAdmin.xhtml?faces-redirect=true";
         } else if ("LEKARZ".equalsIgnoreCase(role)) {
             return "/lekarz/panelLekarz.xhtml?faces-redirect=true";
@@ -72,7 +72,7 @@ public String login() {
 
     // Sprawdzenie ról
     public boolean isAdmin() {
-        return isLoggedIn() && "ADMIN".equalsIgnoreCase(user.getRoleId().getNazwa());
+        return isLoggedIn() && "ADMINISTRATOR".equalsIgnoreCase(user.getRoleId().getNazwa());
     }
 
     public boolean isLekarz() {
