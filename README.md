@@ -480,12 +480,28 @@ Oczekiwane wyniki:
     • Wszystkie kluczowe funkcje działają poprawnie. 
     • żadne krytyczne błędy nie występują w systemie. 
 
-14. Raport z analizy rynku (wspólnie)
-Cel analizy: Celem analizy rynku jest zidentyfikowanie konkurencyjnych rozwiązań i określenie potrzeb użytkowników w zakresie systemów obsługi przychodni lekarskich.
-1. Identyfikacja konkurencji: Na rynku dostępne są liczne systemy do zarządzania przychodniami, takie jak:
+14. Identyfikacja konkurencji: Na rynku dostępne są liczne systemy do zarządzania przychodniami, takie jak:
     • Medchart: System zintegrowany z e-receptami i dokumentacją medyczną, nastawiony na ułatwienie pracy lekarzy. 
     • mMedica: Popularny system oferujący rozliczenia z NFZ oraz zarządzanie dokumentacją pacjentów. 
-    • KAMSOFT: Rozwiązanie obsługujące duże sieci przychodni, umożliwiające kompleksowe zarządzanie placówką. 
+    • KAMSOFT: Rozwiązanie obsługujące duże sieci przychodni, umożliwiające kompleksowe zarządzanie placówką.
+
+15. Proces testowania
+    a) przykładowe 2 przypadki testowe:
+    b) przykładowy test jednostkowy:
+
+16. Podręcznik użytkownika:
+    SPIS TREŚCI
+       1. Instalacja i konfiguracja systemu
+       2. Administrator jako osoba powołująca system do życia
+       3. Zadania recepcjonisty
+       4. Zadania lekarza
+       5. Udogodnienia dla pacjentów.
+   
+          ----------------------------------
+          1. Instalacja i konfiguracja środowiska.
+
+
+          2. Zadania recepcjonisty.
 
 
 
