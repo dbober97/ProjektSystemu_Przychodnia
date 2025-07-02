@@ -16,6 +16,7 @@ Informatyka, niestacjonarne, 3 rok, grupa 2
 Przedmiotem projektu jest system przeznaczony do obsługi sieci przychodni lekarskich. Wdrożenie oprogramowania ma na celu usprawnienie funkcjonowania rejestracji i gabinetu lekarskiego w przychodniach. Aplikacja umożliwi pacjentom na samodzielny zapis do lekarza poprzez kalendarz dostępny online. Dodatkowo będzie dostępna dokumentacja medyczna, e-zwolnienia i e-recepty.
 Lekarze będą mieli ułatwienie w tworzeniu dokumentacji medycznej. Szybki dostęp do informacji na temat przebytych chorób pacjentów, przyjmowanych leków. 
 Projekt przyspieszy obsługę pacjentów czekających w kolejce i umożliwi przyjęcie większej ilości osób.
+Adres repozytorium projektu: https://github.com/dbober97/ProjektSystemu_Przychodnia.git
 
 2. Szczegółowy opis wymagań (wspólnie)
    
