@@ -528,8 +528,9 @@ Oczekiwane wyniki:
 
 
    Strona logowania po zatwierdzeniu, gdy nie podano loginu i hasła:
+![brak](https://github.com/user-attachments/assets/94fcec8f-56f5-451e-a506-fbbf027bcb0e)
 
-![stronaLogowaniaBrakDanych](https://github.com/user-attachments/assets/73b6ca20-7453-452f-82d4-7c3dba3286a1)
+
 
 
    Strona logowanie gdy podane błędny login lub hasło:
