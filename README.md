@@ -447,7 +447,7 @@ Dla obiektu wizyta:
 
 ![Wdrozenie](https://github.com/user-attachments/assets/f56f4513-e404-42c0-8faa-44943dae757e)
 
-13. Bezpieczeństwo:
+13. Bezpieczeństwo: (Dorota Bober)
    -regularne aktualizacje systemu
    -protokół HTTPS
    -szyfrowanie wrażliwych danych w bazie danych
@@ -458,7 +458,7 @@ Dla obiektu wizyta:
    -wdrożenie Web Application Firewall
    -regularne szkolenia pracowników w zakresie cyberbezpieczeństwa
 
-14. Zastosowane rozwiązania zwiększające dostępność (Deklaracja zgodności z WCAG ):
+14. Zastosowane rozwiązania zwiększające dostępność (Deklaracja zgodności z WCAG ): (Dorota Bober)
    -responsywność
    -zastosowanie logicznej struktury treści
    -kontrast kolorystyczny
@@ -506,7 +506,7 @@ Oczekiwane wyniki:
     • mMedica: Popularny system oferujący rozliczenia z NFZ oraz zarządzanie dokumentacją pacjentów. 
     • KAMSOFT: Rozwiązanie obsługujące duże sieci przychodni, umożliwiające kompleksowe zarządzanie placówką.
 
-17. Proces testowania
+17. Proces testowania (Dorota Bober)
     
     a) przykładowe 2 przypadki testowe:
     
@@ -570,7 +570,7 @@ Oczekiwane wyniki:
 
 
 
-19. Podręcznik użytkownika:
+19. Podręcznik użytkownika: (Dorota Bober)
     SPIS TREŚCI
        1. Instalacja i konfiguracja systemu
        2. Administrator jako osoba powołująca system do życia
