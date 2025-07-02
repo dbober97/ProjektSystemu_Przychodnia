@@ -465,9 +465,10 @@ Dla obiektu wizyta:
    -zachowanie czytelności i widoczności tekstu przy min. 200% powiększeniu
    -brak treści, które migają cześciej niż 3 razy na sekundę
    -prosta nawigacja na stronie
+   -zrozumiałe komunikaty o błędach
 
 
-13. Plan procesu testowania (wspólnie)
+15. Plan procesu testowania (wspólnie)
 Cel testowania: Celem procesu testowania jest zapewnienie, że system do obsługi sieci przychodni lekarskich działa zgodnie z wymaganiami funkcjonalnymi i niefunkcjonalnymi oraz spełnia oczekiwania wszystkich grup użytkowników.
 Zakres testów:
     1. Testy jednostkowe (Unit Tests):
@@ -500,16 +501,16 @@ Oczekiwane wyniki:
     • Wszystkie kluczowe funkcje działają poprawnie. 
     • żadne krytyczne błędy nie występują w systemie. 
 
-14. Identyfikacja konkurencji: Na rynku dostępne są liczne systemy do zarządzania przychodniami, takie jak:
+16. Identyfikacja konkurencji: Na rynku dostępne są liczne systemy do zarządzania przychodniami, takie jak:
     • Medchart: System zintegrowany z e-receptami i dokumentacją medyczną, nastawiony na ułatwienie pracy lekarzy. 
     • mMedica: Popularny system oferujący rozliczenia z NFZ oraz zarządzanie dokumentacją pacjentów. 
     • KAMSOFT: Rozwiązanie obsługujące duże sieci przychodni, umożliwiające kompleksowe zarządzanie placówką.
 
-15. Proces testowania
+17. Proces testowania
     a) przykładowe 2 przypadki testowe:
     b) przykładowy test jednostkowy:
 
-16. Podręcznik użytkownika:
+18. Podręcznik użytkownika:
     SPIS TREŚCI
        1. Instalacja i konfiguracja systemu
        2. Administrator jako osoba powołująca system do życia
