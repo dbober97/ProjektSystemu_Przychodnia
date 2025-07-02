@@ -447,6 +447,25 @@ Dla obiektu wizyta:
 
 ![Wdrozenie](https://github.com/user-attachments/assets/f56f4513-e404-42c0-8faa-44943dae757e)
 
+13. Bezpieczeństwo:
+   -regularne aktualizacje systemu
+   -protokół HTTPS
+   -szyfrowanie wrażliwych danych w bazie danych
+   -zasada minimalnych uprawnień
+   -monitorowanie oraz analiza logów
+   -walidacja danych wejściowych
+   -regularne testy penetracyjne
+   -wdrożenie Web Application Firewall
+   -regularne szkolenia pracowników w zakresie cyberbezpieczeństwa
+
+14. Zastosowane rozwiązania zwiększające dostępność (Deklaracja zgodności z WCAG ):
+   -responsywność
+   -zastosowanie logicznej struktury treści
+   -kontrast kolorystyczny
+   -zachowanie czytelności i widoczności tekstu przy min. 200% powiększeniu
+   -brak treści, które migają cześciej niż 3 razy na sekundę
+   -prosta nawigacja na stronie
+
 
 13. Plan procesu testowania (wspólnie)
 Cel testowania: Celem procesu testowania jest zapewnienie, że system do obsługi sieci przychodni lekarskich działa zgodnie z wymaganiami funkcjonalnymi i niefunkcjonalnymi oraz spełnia oczekiwania wszystkich grup użytkowników.
