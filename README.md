@@ -508,9 +508,19 @@ Oczekiwane wyniki:
 
 17. Proces testowania
     a) przykładowe 2 przypadki testowe:
-    b) przykładowy test jednostkowy:
+    b) przykładowy test jednostkowy - logowanie do systemu - trzech użytkowników o 3 różnych rolach.
+    
+    Zrzuty z bazy danych: lista pracowników w bazie, lista ról, lista specjalizacji:
+    
+![listaPracSQLDeveloper](https://github.com/user-attachments/assets/df583ebe-eb88-4fb6-af3e-fc921a633e1a)
+![listaRolSQLDeveloper](https://github.com/user-attachments/assets/6a0c1b13-5c21-4a79-95eb-813fd201b72a)
+![listaSpecSQLDeveloper](https://github.com/user-attachments/assets/24e70ed7-e1c1-4301-8e8b-5f37f70a12f6)
 
-18. Podręcznik użytkownika:
+
+
+    
+
+19. Podręcznik użytkownika:
     SPIS TREŚCI
        1. Instalacja i konfiguracja systemu
        2. Administrator jako osoba powołująca system do życia
