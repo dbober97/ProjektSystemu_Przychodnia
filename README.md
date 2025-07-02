@@ -507,8 +507,13 @@ Oczekiwane wyniki:
     • KAMSOFT: Rozwiązanie obsługujące duże sieci przychodni, umożliwiające kompleksowe zarządzanie placówką.
 
 17. Proces testowania
+    
     a) przykładowe 2 przypadki testowe:
-    b) przykładowy test jednostkowy - logowanie do systemu - trzech użytkowników o 3 różnych rolach.
+    
+    b) przykładowy test jednostkowy:
+
+    
+    Logowanie do systemu - trzech użytkowników o 3 różnych rolach.
     
     Zrzuty z bazy danych: lista pracowników w bazie, lista ról, lista specjalizacji:
     
@@ -517,8 +522,52 @@ Oczekiwane wyniki:
 ![listaSpecSQLDeveloper](https://github.com/user-attachments/assets/24e70ed7-e1c1-4301-8e8b-5f37f70a12f6)
 
 
+   Widok strony logowania: 
 
-    
+![stronaLogowania](https://github.com/user-attachments/assets/e14cc470-4b54-4666-9653-78db7a9e0c52)
+
+
+   Strona logowania po zatwierdzeniu, gdy nie podano loginu i hasła:
+
+![stronaLogowaniaBrakDanych](https://github.com/user-attachments/assets/73b6ca20-7453-452f-82d4-7c3dba3286a1)
+
+
+   Strona logowanie gdy podane błędny login lub hasło:
+
+   ![stronaLogowaniaZlyLogin](https://github.com/user-attachments/assets/e9bcc185-9174-4bba-b0d3-76b227c8271d)
+
+
+![stronaLogowaniaZleHaslo](https://github.com/user-attachments/assets/01cc2be4-eae2-40b0-8952-660080c3be73)
+
+
+   Logowanie, gdy podano prawidłowe dane - przypadek użytkownika o roli recepcjonista:
+
+   ![stronaLogowaniaDobreLogowanie1](https://github.com/user-attachments/assets/eb09fb80-0ae9-4fba-803a-07e20a403ca4)
+
+![stronaLogowaniaDobreLogowanie2](https://github.com/user-attachments/assets/154f66aa-3a0e-4962-934d-f4825f6f7b47)
+
+
+   Podczas logowania wielkość liter w loginie nie ma znaczenia:
+
+   ![stronaLogowaniaDobreLogowanieDuzeLitery1](https://github.com/user-attachments/assets/3cd85f57-110d-44f5-b39a-6547a79f543f)
+
+![stronaLogowaniaDobreLogowanieDuzeLitery2](https://github.com/user-attachments/assets/fd9eb64b-6ef1-4478-beb4-1a400c310cdb)
+
+
+   Logowanie użytkownika o roli administrator:
+
+   ![logowanieAdmin1](https://github.com/user-attachments/assets/54fd7c63-e450-40db-9b3f-c752a4d7746c)
+
+![logowanieAdmin2](https://github.com/user-attachments/assets/4f96abf3-2cba-4ada-80ec-4cc5c5d96f41)
+
+
+   Logowanie użytkownika o roli lekarz:
+
+   ![logowanieLekarz1](https://github.com/user-attachments/assets/64e1cac2-0de4-4423-a988-a6084955c587)
+
+![logowanieLekarz2](https://github.com/user-attachments/assets/50104e66-b3f8-44fe-bfc8-50b978a078b2)
+
+
 
 19. Podręcznik użytkownika:
     SPIS TREŚCI
