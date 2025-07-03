@@ -606,7 +606,7 @@ Oczekiwane wyniki:
        5. Udogodnienia dla pacjentów.
    
           ----------------------------------
-          1. Instalacja i konfiguracja środowiska.
+          1. Administrator jako osoba powołująca system do życia.
 
 
           2. Zadania recepcjonisty.
