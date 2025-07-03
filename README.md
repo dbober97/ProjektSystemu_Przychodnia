@@ -530,6 +530,12 @@ Oczekiwane wyniki:
     
    ![PrzypadekTestowy1](https://github.com/user-attachments/assets/318abeee-1d0f-4fcd-85dc-418e2622cfa5)
 
+   Rejestracja pacjenta w przychodni:
+   
+![PrzypadekTestowy2](https://github.com/user-attachments/assets/f83505cb-58dd-429a-8434-8fe6f01c717e)
+
+   
+
    
  b) przykładowy test jednostkowy:
  
