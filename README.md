@@ -449,39 +449,39 @@ Dla obiektu wizyta:
 
 13. Bezpieczeństwo: (Dorota Bober)
     
-   -regularne aktualizacje systemu
+      -regularne aktualizacje systemu
    
-   -protokół HTTPS
+      -protokół HTTPS
    
-   -szyfrowanie wrażliwych danych w bazie danych
+      -szyfrowanie wrażliwych danych w bazie danych
    
-   -zasada minimalnych uprawnień
+      -zasada minimalnych uprawnień
    
-   -monitorowanie oraz analiza logów
+      -monitorowanie oraz analiza logów
    
-   -walidacja danych wejściowych
+      -walidacja danych wejściowych
    
-   -regularne testy penetracyjne
+      -regularne testy penetracyjne
    
-   -wdrożenie Web Application Firewall
+      -wdrożenie Web Application Firewall
    
-   -regularne szkolenia pracowników w zakresie cyberbezpieczeństwa
+      -regularne szkolenia pracowników w zakresie cyberbezpieczeństwa
 
 14. Zastosowane rozwiązania zwiększające dostępność (Deklaracja zgodności z WCAG ): (Dorota Bober)
     
-   -responsywność
+      -responsywność
    
-   -zastosowanie logicznej struktury treści
+      -zastosowanie logicznej struktury treści
    
-   -kontrast kolorystyczny
+      -kontrast kolorystyczny
    
-   -zachowanie czytelności i widoczności tekstu przy min. 200% powiększeniu
+      -zachowanie czytelności i widoczności tekstu przy min. 200% powiększeniu
    
-   -brak treści, które migają cześciej niż 3 razy na sekundę
+      -brak treści, które migają cześciej niż 3 razy na sekundę
    
-   -prosta nawigacja na stronie
+      -prosta nawigacja na stronie
    
-   -zrozumiałe komunikaty o błędach
+      -zrozumiałe komunikaty o błędach
 
 
 15. Plan procesu testowania (wspólnie)
