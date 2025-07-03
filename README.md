@@ -525,6 +525,12 @@ Oczekiwane wyniki:
 17. Proces testowania (Dorota Bober)
     
     a) przykładowe 2 przypadki testowe:
+
+    Logowanie do systemu:
+    
+![PrzypadekTestowy1](https://github.com/user-attachments/assets/318abeee-1d0f-4fcd-85dc-418e2622cfa5)
+
+    
     
     b) przykładowy test jednostkowy:
 
