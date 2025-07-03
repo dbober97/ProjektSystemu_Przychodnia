@@ -528,6 +528,7 @@ Oczekiwane wyniki:
 
 
    Strona logowania po zatwierdzeniu, gdy nie podano loginu i hasła:
+   
 ![brak](https://github.com/user-attachments/assets/94fcec8f-56f5-451e-a506-fbbf027bcb0e)
 
 
