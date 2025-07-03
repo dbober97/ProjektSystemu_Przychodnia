@@ -528,16 +528,14 @@ Oczekiwane wyniki:
 
     Logowanie do systemu:
     
-![PrzypadekTestowy1](https://github.com/user-attachments/assets/318abeee-1d0f-4fcd-85dc-418e2622cfa5)
+   ![PrzypadekTestowy1](https://github.com/user-attachments/assets/318abeee-1d0f-4fcd-85dc-418e2622cfa5)
 
-    
-    
-    b) przykładowy test jednostkowy:
-
-    
-    Logowanie do systemu - trzech użytkowników o 3 różnych rolach.
-    
-    Zrzuty z bazy danych: lista pracowników w bazie, lista ról, lista specjalizacji:
+   
+ b) przykładowy test jednostkowy:
+ 
+ Logowanie do systemu - trzech użytkowników o 3 różnych rolach.
+ 
+ Zrzuty z bazy danych: lista pracowników w bazie, lista ról, lista specjalizacji:
     
 ![listaPracSQLDeveloper](https://github.com/user-attachments/assets/df583ebe-eb88-4fb6-af3e-fc921a633e1a)
 ![listaRolSQLDeveloper](https://github.com/user-attachments/assets/6a0c1b13-5c21-4a79-95eb-813fd201b72a)
