@@ -16,6 +16,7 @@ Informatyka, niestacjonarne, 3 rok, grupa 2
 Przedmiotem projektu jest system przeznaczony do obsługi sieci przychodni lekarskich. Wdrożenie oprogramowania ma na celu usprawnienie funkcjonowania rejestracji i gabinetu lekarskiego w przychodniach. Aplikacja umożliwi pacjentom na samodzielny zapis do lekarza poprzez kalendarz dostępny online. Dodatkowo będzie dostępna dokumentacja medyczna, e-zwolnienia i e-recepty.
 Lekarze będą mieli ułatwienie w tworzeniu dokumentacji medycznej. Szybki dostęp do informacji na temat przebytych chorób pacjentów, przyjmowanych leków. 
 Projekt przyspieszy obsługę pacjentów czekających w kolejce i umożliwi przyjęcie większej ilości osób.
+Adres repozytorium projektu: https://github.com/dbober97/ProjektSystemu_Przychodnia.git
 
 2. Szczegółowy opis wymagań (wspólnie)
    
@@ -406,9 +407,9 @@ Kod SQL:
       insert into specjalizacje values (2, 'Neurolog')
       insert into specjalizacje values (3, 'brak')
       
-      insert into role values (1, 'Lekarz')
+      insert into role values (3, 'Lekarz')
       insert into role values (2, 'Recepcjonista')
-      insert into role values (3, 'Administrator')
+      insert into role values (1, 'Administrator')
 
       insert into użytkownicy values(1, 'Dorota', 'Bober', 'admin', 'pass', 'db@gmail.com', '999888777', 1, 3);
 
@@ -446,8 +447,44 @@ Dla obiektu wizyta:
 
 ![Wdrozenie](https://github.com/user-attachments/assets/f56f4513-e404-42c0-8faa-44943dae757e)
 
+13. Bezpieczeństwo: (Dorota Bober)
+    
+      -regularne aktualizacje systemu
+   
+      -protokół HTTPS
+   
+      -szyfrowanie wrażliwych danych w bazie danych
+   
+      -zasada minimalnych uprawnień
+   
+      -monitorowanie oraz analiza logów
+   
+      -walidacja danych wejściowych
+   
+      -regularne testy penetracyjne
+   
+      -wdrożenie Web Application Firewall
+   
+      -regularne szkolenia pracowników w zakresie cyberbezpieczeństwa
 
-13. Plan procesu testowania (wspólnie)
+14. Zastosowane rozwiązania zwiększające dostępność (Deklaracja zgodności z WCAG ): (Dorota Bober)
+    
+      -responsywność
+   
+      -zastosowanie logicznej struktury treści
+   
+      -kontrast kolorystyczny
+   
+      -zachowanie czytelności i widoczności tekstu przy min. 200% powiększeniu
+   
+      -brak treści, które migają cześciej niż 3 razy na sekundę
+   
+      -prosta nawigacja na stronie
+   
+      -zrozumiałe komunikaty o błędach
+
+
+15. Plan procesu testowania (wspólnie)
 Cel testowania: Celem procesu testowania jest zapewnienie, że system do obsługi sieci przychodni lekarskich działa zgodnie z wymaganiami funkcjonalnymi i niefunkcjonalnymi oraz spełnia oczekiwania wszystkich grup użytkowników.
 Zakres testów:
     1. Testy jednostkowe (Unit Tests):
@@ -480,12 +517,99 @@ Oczekiwane wyniki:
     • Wszystkie kluczowe funkcje działają poprawnie. 
     • żadne krytyczne błędy nie występują w systemie. 
 
-14. Raport z analizy rynku (wspólnie)
-Cel analizy: Celem analizy rynku jest zidentyfikowanie konkurencyjnych rozwiązań i określenie potrzeb użytkowników w zakresie systemów obsługi przychodni lekarskich.
-1. Identyfikacja konkurencji: Na rynku dostępne są liczne systemy do zarządzania przychodniami, takie jak:
+16. Identyfikacja konkurencji: Na rynku dostępne są liczne systemy do zarządzania przychodniami, takie jak:
     • Medchart: System zintegrowany z e-receptami i dokumentacją medyczną, nastawiony na ułatwienie pracy lekarzy. 
     • mMedica: Popularny system oferujący rozliczenia z NFZ oraz zarządzanie dokumentacją pacjentów. 
-    • KAMSOFT: Rozwiązanie obsługujące duże sieci przychodni, umożliwiające kompleksowe zarządzanie placówką. 
+    • KAMSOFT: Rozwiązanie obsługujące duże sieci przychodni, umożliwiające kompleksowe zarządzanie placówką.
+
+17. Proces testowania (Dorota Bober)
+    
+    a) przykładowe 2 przypadki testowe:
+
+    Logowanie do systemu:
+    
+   ![PrzypadekTestowy1](https://github.com/user-attachments/assets/318abeee-1d0f-4fcd-85dc-418e2622cfa5)
+
+   Rejestracja pacjenta w przychodni:
+   
+![PrzypadekTestowy2](https://github.com/user-attachments/assets/f83505cb-58dd-429a-8434-8fe6f01c717e)
+
+   
+
+   
+ b) przykładowy test jednostkowy:
+ 
+ Logowanie do systemu - trzech użytkowników o 3 różnych rolach.
+ 
+ Zrzuty z bazy danych: lista pracowników w bazie, lista ról, lista specjalizacji:
+    
+![listaPracSQLDeveloper](https://github.com/user-attachments/assets/df583ebe-eb88-4fb6-af3e-fc921a633e1a)
+![listaRolSQLDeveloper](https://github.com/user-attachments/assets/6a0c1b13-5c21-4a79-95eb-813fd201b72a)
+![listaSpecSQLDeveloper](https://github.com/user-attachments/assets/24e70ed7-e1c1-4301-8e8b-5f37f70a12f6)
+
+
+   Widok strony logowania: 
+
+![stronaLogowania](https://github.com/user-attachments/assets/e14cc470-4b54-4666-9653-78db7a9e0c52)
+
+
+   Strona logowania po zatwierdzeniu, gdy nie podano loginu i hasła:
+   
+![brak](https://github.com/user-attachments/assets/94fcec8f-56f5-451e-a506-fbbf027bcb0e)
+
+
+
+
+   Strona logowanie gdy podane błędny login lub hasło:
+
+   ![stronaLogowaniaZlyLogin](https://github.com/user-attachments/assets/e9bcc185-9174-4bba-b0d3-76b227c8271d)
+
+
+![stronaLogowaniaZleHaslo](https://github.com/user-attachments/assets/01cc2be4-eae2-40b0-8952-660080c3be73)
+
+
+   Logowanie, gdy podano prawidłowe dane - przypadek użytkownika o roli recepcjonista:
+
+   ![stronaLogowaniaDobreLogowanie1](https://github.com/user-attachments/assets/eb09fb80-0ae9-4fba-803a-07e20a403ca4)
+
+![stronaLogowaniaDobreLogowanie2](https://github.com/user-attachments/assets/154f66aa-3a0e-4962-934d-f4825f6f7b47)
+
+
+   Podczas logowania wielkość liter w loginie nie ma znaczenia:
+
+   ![stronaLogowaniaDobreLogowanieDuzeLitery1](https://github.com/user-attachments/assets/3cd85f57-110d-44f5-b39a-6547a79f543f)
+
+![stronaLogowaniaDobreLogowanieDuzeLitery2](https://github.com/user-attachments/assets/fd9eb64b-6ef1-4478-beb4-1a400c310cdb)
+
+
+   Logowanie użytkownika o roli administrator:
+
+   ![logowanieAdmin1](https://github.com/user-attachments/assets/54fd7c63-e450-40db-9b3f-c752a4d7746c)
+
+![logowanieAdmin2](https://github.com/user-attachments/assets/4f96abf3-2cba-4ada-80ec-4cc5c5d96f41)
+
+
+   Logowanie użytkownika o roli lekarz:
+
+   ![logowanieLekarz1](https://github.com/user-attachments/assets/64e1cac2-0de4-4423-a988-a6084955c587)
+
+![logowanieLekarz2](https://github.com/user-attachments/assets/50104e66-b3f8-44fe-bfc8-50b978a078b2)
+
+
+
+18. Podręcznik użytkownika: (Dorota Bober)
+    SPIS TREŚCI
+       1. Instalacja i konfiguracja systemu
+       2. Administrator jako osoba powołująca system do życia
+       3. Zadania recepcjonisty
+       4. Zadania lekarza
+       5. Udogodnienia dla pacjentów.
+   
+          ----------------------------------
+          1. Administrator jako osoba powołująca system do życia.
+
+
+          2. Zadania recepcjonisty.
 
 
 
