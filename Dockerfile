@@ -1,4 +1,5 @@
-FROM jboss/wildfly:23.0.2.Final
+FROM wildfly:32.0.0.Final
+
 
 
 # Kopiujemy moduły (sterownik Oracle)
