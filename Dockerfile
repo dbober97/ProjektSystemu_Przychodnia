@@ -10,7 +10,7 @@ COPY modules /opt/jboss/wildfly/modules
 COPY standalone-full.xml /opt/jboss/wildfly/standalone/configuration/standalone.xml
 
 # Kopiujemy aplikację WAR do folderu deployments
-COPY Przychodnia-1.0-SNAPSHOT.war /opt/jboss/wildfly/standalone/deployments/
+COPY target/Przychodnia-1.0-SNAPSHOT.war /opt/jboss/wildfly/standalone/deployments/
 
 # Expose port 8080 (domyślny w kontenerze, Render przekieruje port z zewnątrz)
 EXPOSE 8080
