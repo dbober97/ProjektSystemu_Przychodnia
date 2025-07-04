@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-color: #ffffff;
     background: url("../img/w1.jpg.jsf?ln=template") no-repeat center center fixed;
@@ -84,3 +85,91 @@ a:link:hover, a:visited:hover  {
             margin-left: 0.5rem;
         }
 
+=======
+body {
+    background-color: #ffffff;
+    background: url("../img/w1.jpg.jsf?ln=template") no-repeat center center fixed;
+    font-size: 12px;
+    font-family: Verdana, "Verdana CE",  Arial, "Arial CE", "Lucida Grande CE", lucida, "Helvetica CE", sans-serif;
+    color: #000000;  
+    margin: 10px;
+}
+
+h1 {
+    font-family: Arial, "Arial CE", "Lucida Grande CE", lucida, "Helvetica CE", sans-serif;
+    border-bottom: 1px solid #AFAFAF; 
+    font-size:  16px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    color: #D20005;
+}
+
+h5 {
+    font-family: Arial, "Arial CE", "Lucida Grande CE", lucida, "Helvetica CE", sans-serif;
+    border-bottom: 1px solid #AFAFAF; 
+    font-size:  16px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    color: #000000;
+}
+
+h2 {
+    font-family: Arial, "Arial CE", "Lucida Grande CE", lucida, "Helvetica CE", sans-serif;
+    border-bottom: 1px solid #AFAFAF; 
+    font-size:  26px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    color: #000000;
+}
+
+h3 {
+    font-family: Arial, "Arial CE", "Lucida Grande CE", lucida, "Helvetica CE", sans-serif;
+    border-bottom: 1px solid #AFAFAF; 
+    font-size:  22px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    color: #000000;
+}
+
+a:link, a:visited {
+  color: #045491;
+  font-weight : bold;
+  text-decoration: none;
+}
+
+a:link:hover, a:visited:hover  {
+  color: #045491;
+  font-weight : bold;
+  text-decoration : underline;
+}
+
+        html body .custom.ui-button.ui-button-text-only .ui-icon-loading {
+            opacity: 0;
+        }
+        html body .custom.ui-button.ui-button-text-only .ui-icon-loading:before {
+            content: "\e94a";
+        }
+        html body .custom.ui-button, html body .custom.ui-button * {
+            transition-property: all;
+            transition-duration: .2s;
+        }
+        html body .custom.ui-button.ui-state-loading {
+            opacity: 1;
+            background: #888;
+            border-color: #888;
+        }
+        html body .custom.ui-button.ui-state-loading.ui-button-text-only .ui-button-text {
+            opacity: 1;
+            padding-left: 2rem;
+        }
+        html body .custom.ui-button.ui-state-loading.ui-button-text-only .ui-icon-loading {
+            opacity: 1;
+            left: 0;
+            margin-left: 0.5rem;
+        }
+
+>>>>>>> c8de85896036906a411af2c12d1f8af5f00bdcb7

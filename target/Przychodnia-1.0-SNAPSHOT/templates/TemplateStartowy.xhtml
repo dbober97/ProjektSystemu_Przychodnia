@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version='1.0' encoding='UTF-8' ?> 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
@@ -38,3 +39,45 @@
        
     </h:body>
 </html>
+=======
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="jakarta.faces.facelets"
+      xmlns:h="jakarta.faces.html">
+
+    <h:head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <h:outputStylesheet name="default.css" library="css"/>
+        <h:outputStylesheet name="cssLayout.css" library="css"/>
+        <title>Przychodnia</title>
+	<link type="image/x-icon" rel="shortcut icon"
+		href="#{resource['img/ikona.png']}" />
+    </h:head>
+
+    <h:body>
+
+        <div id="top">
+            <ui:insert name="top">
+                <div id="header" class="box bottom-space">
+                    <ui:include src="/templates/header-snippet.xhtml" />
+                </div>
+            </ui:insert>
+        </div>
+
+        <div id="content" class="center_content">
+            <ui:insert name="content">Content</ui:insert>
+        </div>
+        
+
+        <div id="bottom">
+            <ui:insert name="bottom">
+                <div id="footer" class="box bottom-space">
+                    <ui:include src="/templates/footer-snippet.xhtml" />
+                </div>
+            </ui:insert>
+        </div>
+       
+    </h:body>
+</html>
+>>>>>>> c8de85896036906a411af2c12d1f8af5f00bdcb7

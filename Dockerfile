@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 FROM quay.io/wildfly/wildfly:32.0.0.Final
 
 # Kopiujemy moduły (sterownik Oracle)
@@ -14,3 +15,23 @@ EXPOSE 8080
 
 # Uruchamiamy WildFly na 0.0.0.0 i przekazujemy port z $PORT (ustawiany przez Render)
 CMD ["/opt/jboss/wildfly/bin/standalone.sh", "-b", "0.0.0.0", "-Djboss.http.port=${PORT}"]
+=======
+FROM quay.io/wildfly/wildfly:latest-jdk11
+
+# Skopiuj gotową aplikację .war
+COPY Przychodnia-1.0-SNAPSHOT.war /opt/jboss/wildfly/standalone/deployments/
+
+# Wymuś wdrożenie
+RUN touch /opt/jboss/wildfly/standalone/deployments/ROOT.war.dodeploy
+
+# Skopiuj sterownik Oracle i moduł
+COPY ojdbc7.jar /opt/jboss/wildfly/modules/system/layers/base/com/oracle/main/
+COPY module.xml /opt/jboss/wildfly/modules/system/layers/base/com/oracle/main/
+
+# Skopiuj własną konfigurację serwera WildFly
+COPY standalone-full.xml /opt/jboss/wildfly/standalone/configuration/
+
+EXPOSE 8080
+
+CMD ["/opt/jboss/wildfly/bin/standalone.sh", "-b", "0.0.0.0", "-c", "standalone-full.xml"]
+>>>>>>> c8de85896036906a411af2c12d1f8af5f00bdcb7
