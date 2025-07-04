@@ -1,4 +1,5 @@
-FROM wildfly:32.0.0.Final
+FROM quay.io/wildfly/wildfly:32.0.0.Final-ubi8
+
 
 
 
