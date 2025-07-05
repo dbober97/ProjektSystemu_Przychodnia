@@ -607,9 +607,13 @@ Oczekiwane wyniki:
    
           ----------------------------------
           1. Administrator jako osoba powołująca system do życia.
+         
+             Rolą osoby z uprawnieniami administratora jest rejestrowanie nowych użytkowników w systemie - pracowników. Może im również konta dezaktywować. Każdy pracownik może posiadać tylko jedną rolę. Pulę ról powinien również uzupełniać administrator - do tego ma specjalnie przygotowaną zakładkę. W przypadku lekarzy ustawia się również nazwę specjalizacji - najpierw administrator powinien uzupełnić listę specjalizacji. Tak więc zadaniami administratora jest czuwanie nad aktualną listą ról i specjalizacji oraz dodawanie nowych pracowników do systemu (lub dezaktywowanie kont).
 
 
-          2. Zadania recepcjonisty.
+          3. Zadania recepcjonisty.
+         
+             Recepcjonista jest osobą odpowiedzialną za rejestrowanie nowych pacjentów w systemie oraz zmianą ich danych, usuwaniem ich z systemu jeśli jest taka potrzeba. Ponadto zajmuje się tworzeniem terminarzy dla lekarzy oraz zapisywaniem pacjentów na konkretne wizyty. Do tych wszystkich zadań służą dedykowane zakładki - przejrzysty układ panelu recepcjonisty sprawia, że bardzo łatwo można te wszystkie zadania wykonywać.
 
 
 
